@@ -3,8 +3,6 @@ local show = false
 function showDisplay(show)
     SendNUIMessage({
         showUI = show,
-        limit = config.CountUserLimitInJob,
-        islimit = config.ShowAllUserInJob
     })
 end
 

@@ -10,11 +10,9 @@ version '1.0.0'
 
 -- What to run
 client_scripts {
-    "config.lua",
     'client.lua',
 }
 server_script {
-    "config.lua",
     'server.lua',
 }
 
