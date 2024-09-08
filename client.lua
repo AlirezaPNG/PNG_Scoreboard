@@ -78,8 +78,8 @@ end
 --
 
 
-RegisterNetEvent('PNG_scoreboard:SendPlayers')
-AddEventHandler('PNG_scoreboard:SendPlayers', function(allplayer, admins, alljobs)
+RegisterNetEvent('PNG_Scoreboard:SendPlayers')
+AddEventHandler('PNG_Scoreboard:SendPlayers', function(allplayer, admins, alljobs)
     police(alljobs['police'])
     mechanic(alljobs['mechanic'])
     medic(alljobs['ambulance'])

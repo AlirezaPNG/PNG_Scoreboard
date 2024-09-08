@@ -1,5 +1,5 @@
 function PNG_Post(event, body = { key: value }) {
-  fetch(`https://PNG_scoreboard/${event}`, {
+  fetch(`https://PNG_Scoreboard/${event}`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

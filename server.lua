@@ -55,7 +55,7 @@ CreateThread(function()
     Wait(1500)
     while true do
         local players, admins, alljobs = GetAllPlayers()
-        TriggerClientEvent('PNG_scoreboard:SendPlayers', -1, players, admins, alljobs)
+        TriggerClientEvent('PNG_Scoreboard:SendPlayers', -1, players, admins, alljobs)
         Wait(1000*5)
     end
 end)
